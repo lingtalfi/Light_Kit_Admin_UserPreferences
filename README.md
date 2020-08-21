@@ -1,6 +1,6 @@
 Light_Kit_Admin_UserPreferences
 ===========
-2020-08-13
+2020-08-13 -> 2020-08-21
 
 
 
@@ -204,6 +204,11 @@ $micro_permission.methods_collection:
 History Log
 =============
 
+- 1.1.0 -- 2020-08-21
+
+    - update service to work with micro-permission3
+    
+    
 - 1.0.0 -- 2020-08-13
 
     - initial commit

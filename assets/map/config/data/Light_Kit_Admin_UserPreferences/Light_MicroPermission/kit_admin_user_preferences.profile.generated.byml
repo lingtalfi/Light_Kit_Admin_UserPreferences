@@ -1,7 +1,2 @@
 Light_UserPreferences.admin:
-    - tables.lup_user_preference.create
-    - tables.lup_user_preference.read
-    - tables.lup_user_preference.update
-    - tables.lup_user_preference.delete
-
-
+    - store.lup_user_preference
