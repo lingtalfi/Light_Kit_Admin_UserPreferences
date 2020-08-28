@@ -68,18 +68,7 @@ $chloroform_extension.methods_collection:
                 
             
         
-    
 
-$crud.methods_collection: 
-    - 
-        method: registerHandler
-        args: 
-            pluginId: Light_Kit_Admin_UserPreferences
-            handler: 
-                instance: Ling\Light_Kit_Admin\Crud\CrudRequestHandler\LightKitAdminCrudRequestHandler
-            
-        
-    
 
 $kit_admin.methods_collection: 
     - 

@@ -1,6 +1,6 @@
 Light_Kit_Admin_UserPreferences
 ===========
-2020-08-13 -> 2020-08-21
+2020-08-13 -> 2020-08-28
 
 
 
@@ -145,17 +145,6 @@ $chloroform_extension.methods_collection:
         
     
 
-$crud.methods_collection: 
-    - 
-        method: registerHandler
-        args: 
-            pluginId: Light_Kit_Admin_UserPreferences
-            handler: 
-                instance: Ling\Light_Kit_Admin\Crud\CrudRequestHandler\LightKitAdminCrudRequestHandler
-            
-        
-    
-
 $kit_admin.methods_collection: 
     - 
         method: registerPlugin
@@ -170,21 +159,21 @@ $kit_admin.methods_collection:
                 
             
         
-    
 
-$realform.methods_collection: 
-    - 
+
+$realform.methods_collection:
+    -
         method: registerFormHandler
-        args: 
+        args:
             plugin: Light_Kit_Admin_UserPreferences
-            handler: 
+            handler:
                 instance: Ling\Light_Kit_Admin\Realform\Handler\LightKitAdminRealformHandler
-                methods: 
-                    setConfDir: 
+                methods:
+                    setConfDir:
                         dir: ${app_dir}/config/data/Light_Kit_Admin_UserPreferences/Light_Realform
-                    
-                
-            
+
+
+
         
     
 
@@ -195,8 +184,6 @@ $micro_permission.methods_collection:
             file: ${app_dir}/config/data/Light_Kit_Admin_UserPreferences/Light_MicroPermission/kit_admin_user_preferences.profile.generated.byml
         
     
-
-
 ```
 
 
@@ -204,6 +191,10 @@ $micro_permission.methods_collection:
 History Log
 =============
 
+- 1.2.0 -- 2020-08-28
+
+    - acknowledge new Light_Crud api  
+    
 - 1.1.0 -- 2020-08-21
 
     - update service to work with micro-permission3
