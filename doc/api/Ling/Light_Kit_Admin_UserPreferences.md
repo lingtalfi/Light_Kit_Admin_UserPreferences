@@ -1,6 +1,6 @@
 Ling/Light_Kit_Admin_UserPreferences
 ================
-2020-08-13 --> 2020-08-28
+2020-08-13 --> 2020-11-27
 
 
 
@@ -10,8 +10,8 @@ Table of contents
 
 - [LightKitAdminUserPreferencesUserMainPageController](https://github.com/lingtalfi/Light_Kit_Admin_UserPreferences/blob/master/doc/api/Ling/Light_Kit_Admin_UserPreferences/Controller/Custom/LightKitAdminUserPreferencesUserMainPageController.md) &ndash; The LightKitAdminUserPreferencesUserMainPageController class.
     - [LightKitAdminUserPreferencesUserMainPageController::render](https://github.com/lingtalfi/Light_Kit_Admin_UserPreferences/blob/master/doc/api/Ling/Light_Kit_Admin_UserPreferences/Controller/Custom/LightKitAdminUserPreferencesUserMainPageController/render.md) &ndash; Renders the user main page.
+    - AdminPageController::__construct &ndash; Builds the LightController instance.
     - AdminPageController::renderAdminPage &ndash; if she is not connected yet.
-    - LightKitAdminController::__construct &ndash; Builds the LightController instance.
     - LightKitAdminController::setRoute &ndash; Sets the matching route to this controller instance.
     - LightKitAdminController::renderPage &ndash; Renders the given page using the [kit service](https://github.com/lingtalfi/Light_Kit).
     - LightController::setLight &ndash; Sets the light instance.
@@ -26,9 +26,9 @@ Table of contents
 - [LupUserPreferenceController](https://github.com/lingtalfi/Light_Kit_Admin_UserPreferences/blob/master/doc/api/Ling/Light_Kit_Admin_UserPreferences/Controller/Generated/LupUserPreferenceController.md) &ndash; The LupUserPreferenceController class.
     - [LupUserPreferenceController::renderList](https://github.com/lingtalfi/Light_Kit_Admin_UserPreferences/blob/master/doc/api/Ling/Light_Kit_Admin_UserPreferences/Controller/Generated/LupUserPreferenceController/renderList.md) &ndash; Renders the user preference list page.
     - [LupUserPreferenceController::renderForm](https://github.com/lingtalfi/Light_Kit_Admin_UserPreferences/blob/master/doc/api/Ling/Light_Kit_Admin_UserPreferences/Controller/Generated/LupUserPreferenceController/renderForm.md) &ndash; Renders the user preference form page.
-    - [RealGenController::__construct](https://github.com/lingtalfi/Light_Kit_Admin_UserPreferences/blob/master/doc/api/Ling/Light_Kit_Admin_UserPreferences/Controller/Generated/Base/RealGenController/__construct.md) &ndash; Builds the instance.
-    - [RealGenController::render](https://github.com/lingtalfi/Light_Kit_Admin_UserPreferences/blob/master/doc/api/Ling/Light_Kit_Admin_UserPreferences/Controller/Generated/Base/RealGenController/render.md) &ndash; Renders a page to interact with a table data.
-    - [RealGenController::setOnSuccessIframeSignal](https://github.com/lingtalfi/Light_Kit_Admin_UserPreferences/blob/master/doc/api/Ling/Light_Kit_Admin_UserPreferences/Controller/Generated/Base/RealGenController/setOnSuccessIframeSignal.md) &ndash; Sets the iframeSignal to use in case of a valid form.
+    - RealAdminPageController::__construct &ndash; Builds the instance.
+    - RealAdminPageController::render &ndash; Renders a page to interact with a table data.
+    - RealAdminPageController::setOnSuccessIframeSignal &ndash; Sets the iframeSignal to use in case of a valid form.
     - AdminPageController::renderAdminPage &ndash; if she is not connected yet.
     - LightKitAdminController::setRoute &ndash; Sets the matching route to this controller instance.
     - LightKitAdminController::renderPage &ndash; Renders the given page using the [kit service](https://github.com/lingtalfi/Light_Kit).
@@ -62,7 +62,6 @@ Dependencies
 - [Light](https://github.com/lingtalfi/Light)
 - [Light_Realform](https://github.com/lingtalfi/Light_Realform)
 - [Light_Kit](https://github.com/lingtalfi/Light_Kit)
-- [Light_UserRowRestriction](https://github.com/lingtalfi/Light_UserRowRestriction)
 - [Light_ControllerHub](https://github.com/lingtalfi/Light_ControllerHub)
 
 

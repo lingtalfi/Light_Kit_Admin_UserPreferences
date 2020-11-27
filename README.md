@@ -1,6 +1,6 @@
 Light_Kit_Admin_UserPreferences
 ===========
-2020-08-13 -> 2020-08-28
+2020-08-13 -> 2020-11-27
 
 
 
@@ -191,6 +191,10 @@ $micro_permission.methods_collection:
 History Log
 =============
 
+- 1.2.1 -- 2020-11-27
+
+    - update to accommodate latest Light_Kit api
+    
 - 1.2.0 -- 2020-08-28
 
     - acknowledge new Light_Crud api  
