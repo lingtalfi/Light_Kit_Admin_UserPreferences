@@ -6,7 +6,7 @@ rendering:
     related_links: 
         - 
             text: "See the list of \"User preference\" items"
-            url: ::(@reverse_router->getUrl(lch_route-hub, {plugin: Light_Kit_Admin_UserPreferences, controller: Generated/LupUserPreferenceController}))::
+            url: ::(@reverse_router->getUrl(lch_route-hub, {plugin: Ling/Light_Kit_Admin_UserPreferences, controller: Generated/LupUserPreferenceController}))::
             icon: fas fa-plus-circle
         
     
@@ -30,6 +30,7 @@ chloroform:
             validators: 
                 required: []
             
+            nullable: false
             tableListDirectiveId: %{nuggetId}:chloroform.fields.lud_user_id.tableListConf
             tableListConf: 
                 sql: select id as value, concat(id, '. ', pseudo) as label from lud_user
@@ -52,6 +53,7 @@ chloroform:
             validators: 
                 required: []
             
+            nullable: false
         
         name: 
             label: Name
@@ -59,6 +61,7 @@ chloroform:
             validators: 
                 required: []
             
+            nullable: false
         
         value: 
             label: Value
@@ -66,6 +69,7 @@ chloroform:
             validators: 
                 required: []
             
+            nullable: false
         
         text_value: 
             label: Text value
@@ -73,6 +77,7 @@ chloroform:
             validators: 
                 required: []
             
+            nullable: false
         
         value_type: 
             label: Value type
@@ -80,6 +85,7 @@ chloroform:
             validators: 
                 required: []
             
+            nullable: false
         
     
 

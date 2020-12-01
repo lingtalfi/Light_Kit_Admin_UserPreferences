@@ -1,6 +1,6 @@
 Ling/Light_Kit_Admin_UserPreferences
 ================
-2020-08-13 --> 2020-11-27
+2020-08-13 --> 2020-12-01
 
 
 
@@ -33,14 +33,14 @@ Table of contents
     - LightKitAdminController::setRoute &ndash; Sets the matching route to this controller instance.
     - LightKitAdminController::renderPage &ndash; Renders the given page using the [kit service](https://github.com/lingtalfi/Light_Kit).
     - LightController::setLight &ndash; Sets the light instance.
-- [LightKitAdminUserPreferencesControllerHubHandler](https://github.com/lingtalfi/Light_Kit_Admin_UserPreferences/blob/master/doc/api/Ling/Light_Kit_Admin_UserPreferences/ControllerHub/Generated/LightKitAdminUserPreferencesControllerHubHandler.md) &ndash; The LightKitAdminUserPreferencesControllerHubHandler class.
-    - [LightKitAdminUserPreferencesControllerHubHandler::handle](https://github.com/lingtalfi/Light_Kit_Admin_UserPreferences/blob/master/doc/api/Ling/Light_Kit_Admin_UserPreferences/ControllerHub/Generated/LightKitAdminUserPreferencesControllerHubHandler/handle.md) &ndash; Process the given controllerIdentifier and returns an appropriate http response.
-    - LightBaseControllerHubHandler::__construct &ndash; Builds the LightKitAdminControllerHubHandler instance.
-    - LightBaseControllerHubHandler::setContainer &ndash; Sets the container.
 - [LightKitAdminUserPreferencesLkaPlugin](https://github.com/lingtalfi/Light_Kit_Admin_UserPreferences/blob/master/doc/api/Ling/Light_Kit_Admin_UserPreferences/LightKitAdminPlugin/Generated/LightKitAdminUserPreferencesLkaPlugin.md) &ndash; The LightKitAdminUserPreferencesLkaPlugin class.
     - BaseLightKitAdminPlugin::__construct &ndash; Builds the BaseLightKitAdminPlugin instance.
     - BaseLightKitAdminPlugin::getPluginOptions &ndash; Returns the options of this kit admin plugin.
     - BaseLightKitAdminPlugin::setOptionsFile &ndash; Sets the file.
+- [LightKitAdminUserPreferencesControllerHubHandler](https://github.com/lingtalfi/Light_Kit_Admin_UserPreferences/blob/master/doc/api/Ling/Light_Kit_Admin_UserPreferences/Light_ControllerHub/Generated/LightKitAdminUserPreferencesControllerHubHandler.md) &ndash; The LightKitAdminUserPreferencesControllerHubHandler class.
+    - [LightKitAdminUserPreferencesControllerHubHandler::handle](https://github.com/lingtalfi/Light_Kit_Admin_UserPreferences/blob/master/doc/api/Ling/Light_Kit_Admin_UserPreferences/Light_ControllerHub/Generated/LightKitAdminUserPreferencesControllerHubHandler/handle.md) &ndash; Process the given controllerIdentifier and returns an appropriate http response.
+    - LightBaseControllerHubHandler::__construct &ndash; Builds the LightKitAdminControllerHubHandler instance.
+    - LightBaseControllerHubHandler::setContainer &ndash; Sets the light service container interface.
 - [LightKitAdminUserPreferencesService](https://github.com/lingtalfi/Light_Kit_Admin_UserPreferences/blob/master/doc/api/Ling/Light_Kit_Admin_UserPreferences/Service/LightKitAdminUserPreferencesService.md) &ndash; The LightKitAdminUserPreferencesService class.
     - LightKitAdminStandardServicePlugin::__construct &ndash; Builds the LightLingStandardService01 instance.
     - LightKitAdminStandardServicePlugin::setContainer &ndash; Sets the container.
@@ -49,8 +49,6 @@ Table of contents
     - LightKitAdminStandardServicePlugin::isInstalled &ndash; Returns whether the core install phase of the plugin is fully completed.
     - LightKitAdminStandardServicePlugin::uninstall &ndash; Uninstalls the plugin.
     - LightKitAdminStandardServicePlugin::getDependencies &ndash; Returns the array of dependencies.
-    - LightKitAdminStandardServicePlugin::registerRealistByRequestId &ndash; Registers the plugin to the realist service.
-    - LightKitAdminStandardServicePlugin::registerRealformByIdentifier &ndash; Registers the plugin to the realform service.
 
 
 Dependencies
