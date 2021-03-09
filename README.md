@@ -1,6 +1,6 @@
 Light_Kit_Admin_UserPreferences
 ===========
-2020-08-13 -> 2021-03-05
+2020-08-13 -> 2021-03-09
 
 
 
@@ -135,6 +135,10 @@ $micro_permission.methods_collection:
 History Log
 =============
 
+- 1.2.7 -- 2021-03-09
+
+    - rename template dir to include galaxy name
+  
 - 1.2.6 -- 2021-03-05
 
     - update README.md, add install alternative
