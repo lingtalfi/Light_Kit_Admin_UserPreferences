@@ -1,6 +1,6 @@
 Light_Kit_Admin_UserPreferences
 ===========
-2020-08-13 -> 2021-03-09
+2020-08-13 -> 2021-03-15
 
 
 
@@ -95,7 +95,7 @@ $bmenu.methods_collection:
         method: addDirectItemsByFileAndParentPath
         args: 
             menu_type: admin_main_menu
-            file: ${app_dir}/config/data/Light_Kit_Admin_UserPreferences/bmenu/generated/kit_admin_user_preferences.admin_mainmenu_1.byml
+            file: ${app_dir}/config/data/Ling.Light_Kit_Admin_UserPreferences/Ling.Light_BMenu/generated/kit_admin_user_preferences.admin_mainmenu_1.byml
             path: lka-admin
         
     
@@ -103,7 +103,7 @@ $bmenu.methods_collection:
         method: addDirectItemsByFileAndParentPath
         args: 
             menu-type: admin_main_menu
-            file: ${app_dir}/config/data/Light_Kit_Admin_UserPreferences/bmenu/generated/kit_admin_user_preferences.admin_mainmenu-usermainpage.byml
+            file: ${app_dir}/config/data/Ling.Light_Kit_Admin_UserPreferences/Ling.Light_BMenu/generated/kit_admin_user_preferences.admin_mainmenu-usermainpage.byml
             path: lka-user
         
     
@@ -117,7 +117,7 @@ $kit_admin.methods_collection:
                 instance: Ling\Light_Kit_Admin_UserPreferences\LightKitAdminPlugin\Generated\LightKitAdminUserPreferencesLkaPlugin
                 methods: 
                     setOptionsFile: 
-                        file: ${app_dir}/config/data/Light_Kit_Admin_UserPreferences/Light_Kit_Admin/lka-options.generated.byml
+                        file: ${app_dir}/config/data/Ling.Light_Kit_Admin_UserPreferences/Light_Kit_Admin/lka-options.generated.byml
 
     
 
@@ -125,7 +125,7 @@ $micro_permission.methods_collection:
     - 
         method: registerMicroPermissionsByProfile
         args: 
-            file: ${app_dir}/config/data/Light_Kit_Admin_UserPreferences/Light_MicroPermission/kit_admin_user_preferences.profile.generated.byml
+            file: ${app_dir}/config/data/Ling.Light_Kit_Admin_UserPreferences/Ling.Light_MicroPermission/kit_admin_user_preferences.profile.generated.byml
         
     
 ```
@@ -134,6 +134,10 @@ $micro_permission.methods_collection:
 
 History Log
 =============
+
+- 1.2.9 -- 2021-03-15
+
+    - update planet to adapt Ling.Light:0.70.0
 
 - 1.2.8 -- 2021-03-09
 

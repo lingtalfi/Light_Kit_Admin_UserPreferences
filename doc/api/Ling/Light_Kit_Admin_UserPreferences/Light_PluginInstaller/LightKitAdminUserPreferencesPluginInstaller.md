@@ -4,7 +4,7 @@
 
 The LightKitAdminUserPreferencesPluginInstaller class
 ================
-2020-08-13 --> 2021-03-09
+2020-08-13 --> 2021-03-15
 
 
 
