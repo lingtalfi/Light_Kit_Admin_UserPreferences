@@ -120,6 +120,10 @@ $kit_admin.methods_collection:
 History Log
 =============
 
+- 1.2.11 -- 2021-03-18
+
+  - fix service config using undesirable bmenu snippet
+
 - 1.2.10 -- 2021-03-18
 
     - update planet to adapt Ling.Light_BMenu:2.0.0

@@ -130,3 +130,13 @@
     - Ling:Light_PlanetInstaller:1.0.20+
     - Ling:Light_Realform:2.0.10+
     - Ling:Light_UserPreferences:1.0.9+
+
+1.2.11: 
+    - Ling:Bat:1.309+
+    - Ling:Chloroform:1.36.7+
+    - Ling:Light:0.70.0+
+    - Ling:Light_ControllerHub:1.2.14+
+    - Ling:Light_Kit:1.17.7+
+    - Ling:Light_Kit_Admin:0.12.27+
+    - Ling:Light_Realform:2.0.10+
+    - Ling:Light_UserPreferences:1.0.9+

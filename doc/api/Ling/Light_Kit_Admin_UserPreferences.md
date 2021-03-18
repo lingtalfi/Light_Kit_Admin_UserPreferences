@@ -45,7 +45,7 @@ Table of contents
     - LightBaseControllerHubHandler::__construct &ndash; Builds the LightKitAdminControllerHubHandler instance.
     - LightBaseControllerHubHandler::setContainer &ndash; Sets the light service container interface.
 - [LightKitAdminUserPreferencesPlanetInstaller](https://github.com/lingtalfi/Light_Kit_Admin_UserPreferences/blob/master/doc/api/Ling/Light_Kit_Admin_UserPreferences/Light_PlanetInstaller/LightKitAdminUserPreferencesPlanetInstaller.md) &ndash; The LightKitAdminUserPreferencesPlanetInstaller class.
-    - [LightKitAdminUserPreferencesPlanetInstaller::onMapCopyAfter](https://github.com/lingtalfi/Light_Kit_Admin_UserPreferences/blob/master/doc/api/Ling/Light_Kit_Admin_UserPreferences/Light_PlanetInstaller/LightKitAdminUserPreferencesPlanetInstaller/onMapCopyAfter.md) &ndash; This hook is executed during an [install](https://github.com/lingtalfi/TheBar/blob/master/discussions/import-install.md#summary).
+    - LightKitAdminBasePlanetInstaller::onMapCopyAfter &ndash; This hook is executed during an [install](https://github.com/lingtalfi/TheBar/blob/master/discussions/import-install.md#summary).
     - LightBasePlanetInstaller::__construct &ndash; Builds the LightBasePlanetInstaller instance.
     - LightBasePlanetInstaller::setContainer &ndash; Sets the light service container interface.
 - [LightKitAdminUserPreferencesPluginInstaller](https://github.com/lingtalfi/Light_Kit_Admin_UserPreferences/blob/master/doc/api/Ling/Light_Kit_Admin_UserPreferences/Light_PluginInstaller/LightKitAdminUserPreferencesPluginInstaller.md) &ndash; The LightKitAdminUserPreferencesPluginInstaller class.
@@ -64,15 +64,12 @@ Table of contents
 
 Dependencies
 ============
-- [BabyYaml](https://github.com/lingtalfi/BabyYaml)
 - [Bat](https://github.com/lingtalfi/Bat)
 - [Chloroform](https://github.com/lingtalfi/Chloroform)
-- [CliTools](https://github.com/lingtalfi/CliTools)
 - [Light](https://github.com/lingtalfi/Light)
 - [Light_ControllerHub](https://github.com/lingtalfi/Light_ControllerHub)
 - [Light_Kit](https://github.com/lingtalfi/Light_Kit)
 - [Light_Kit_Admin](https://github.com/lingtalfi/Light_Kit_Admin)
-- [Light_PlanetInstaller](https://github.com/lingtalfi/Light_PlanetInstaller)
 - [Light_Realform](https://github.com/lingtalfi/Light_Realform)
 - [Light_UserPreferences](https://github.com/lingtalfi/Light_UserPreferences)
 

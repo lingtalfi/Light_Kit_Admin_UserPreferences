@@ -1,14 +1,11 @@
 dependencies: 
     Ling: 
-        - BabyYaml
         - Bat
         - Chloroform
-        - CliTools
         - Light
         - Light_ControllerHub
         - Light_Kit
         - Light_Kit_Admin
-        - Light_PlanetInstaller
         - Light_Realform
         - Light_UserPreferences
     
