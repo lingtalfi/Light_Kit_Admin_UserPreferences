@@ -280,7 +280,7 @@ rendering:
     related_links: 
         - 
             text: "Add new \"user preference\" item"
-            url: REALIST(Light_Realist, route, lch_route-hub, {plugin: Ling/Light_Kit_Admin_UserPreferences, controller: Generated/LupUserPreferenceController, m:f})
+            url: REALIST(Ling.Light_Realist, route, lch_route-hub, {plugin: Ling/Light_Kit_Admin_UserPreferences, controller: Generated/LupUserPreferenceController, m:f})
             icon: fas fa-plus-circle
         
     

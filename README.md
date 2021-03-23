@@ -1,6 +1,6 @@
 Light_Kit_Admin_UserPreferences
 ===========
-2020-08-13 -> 2021-03-18
+2020-08-13 -> 2021-03-23
 
 
 
@@ -120,6 +120,10 @@ $kit_admin.methods_collection:
 History Log
 =============
 
+- 1.2.12 -- 2021-03-23
+
+  - adapt api to Ling.Light_Realist:2.0.15
+  
 - 1.2.11 -- 2021-03-18
 
   - fix service config using undesirable bmenu snippet
