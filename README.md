@@ -85,23 +85,6 @@ kit_admin_user_preferences:
             container: @container()
         
     
-
-# --------------------------------------
-# hooks
-# --------------------------------------   
-$kit_admin.methods_collection: 
-    - 
-        method: registerPlugin
-        args: 
-            pluginName: Light_Kit_Admin_UserPreferences
-            plugin: 
-                instance: Ling\Light_Kit_Admin_UserPreferences\LightKitAdminPlugin\Generated\LightKitAdminUserPreferencesLkaPlugin
-                methods: 
-                    setOptionsFile: 
-                        file: ${app_dir}/config/data/Ling.Light_Kit_Admin_UserPreferences/Ling.Light_Kit_Admin/lka-options.generated.byml
-                    
-                
-            
         
     
     
@@ -111,6 +94,10 @@ $kit_admin.methods_collection:
 
 History Log
 =============
+
+- 1.2.16 -- 2021-06-17
+
+    - checkpoint commit
 
 - 1.2.15 -- 2021-06-17
 

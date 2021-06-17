@@ -105,4 +105,4 @@ See the source code of [Ling\Light_Kit_Admin_UserPreferences\Controller\Generate
 
 SeeAlso
 ==============
-Previous class: [RealGenController](https://github.com/lingtalfi/Light_Kit_Admin_UserPreferences/blob/master/doc/api/Ling/Light_Kit_Admin_UserPreferences/Controller/Generated/Base/RealGenController.md)<br>Next class: [LightKitAdminUserPreferencesLkaPlugin](https://github.com/lingtalfi/Light_Kit_Admin_UserPreferences/blob/master/doc/api/Ling/Light_Kit_Admin_UserPreferences/LightKitAdminPlugin/Generated/LightKitAdminUserPreferencesLkaPlugin.md)<br>
+Previous class: [RealGenController](https://github.com/lingtalfi/Light_Kit_Admin_UserPreferences/blob/master/doc/api/Ling/Light_Kit_Admin_UserPreferences/Controller/Generated/Base/RealGenController.md)<br>Next class: [LightKitAdminUserPreferencesControllerHubHandler](https://github.com/lingtalfi/Light_Kit_Admin_UserPreferences/blob/master/doc/api/Ling/Light_Kit_Admin_UserPreferences/Light_ControllerHub/Generated/LightKitAdminUserPreferencesControllerHubHandler.md)<br>
