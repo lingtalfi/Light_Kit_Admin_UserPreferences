@@ -1,6 +1,6 @@
 Light_Kit_Admin_UserPreferences
 ===========
-2020-08-13 -> 2021-06-17
+2020-08-13 -> 2021-06-18
 
 
 
@@ -95,6 +95,10 @@ kit_admin_user_preferences:
 History Log
 =============
 
+- 1.2.17 -- 2021-06-18
+
+    - update api to work with Ling.Light_Kit_Admin:0.13.0
+  
 - 1.2.16 -- 2021-06-17
 
     - checkpoint commit
